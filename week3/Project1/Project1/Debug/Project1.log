@@ -1,0 +1,60 @@
+﻿  源.cpp
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(126): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(326): warning C4101: “Score1”: 未引用的局部变量
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(326): warning C4101: “Score2”: 未引用的局部变量
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(377): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(379): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(389): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(394): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(441): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(443): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(453): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(458): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(486): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(489): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs\vc\tools\msvc\14.16.27023\include\xutility(1108): error C2664: “int (Step,Step)”: 无法将参数 2 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\xutility(1108): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  d:\vs\vc\tools\msvc\14.16.27023\include\xutility(1107): note: 参见对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<int(__cdecl *&)(Step,Step),pointincludevalue&,pointincludevalue&>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Pr=int (__cdecl *&)(Step,Step),
+              _Ty1=pointincludevalue &,
+              _Ty2=pointincludevalue &
+          ]
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(4000): note: 参见对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,int(__cdecl *)(Step,Step)>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=pointincludevalue *,
+              _Pr=int (__cdecl *)(Step,Step)
+          ]
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(4034): note: 参见对正在编译的函数 模板 实例化“void std::_Sort_unchecked<pointincludevalue*,int(__cdecl *)(Step,Step)>(_RanIt,_RanIt,int,_Pr)”的引用
+          with
+          [
+              _RanIt=pointincludevalue *,
+              _Pr=int (__cdecl *)(Step,Step)
+          ]
+  c:\users\15052\desktop\数据结构课程设计\课设c题题目及资料\normal track\project1\project1\源.cpp(125): note: 参见对正在编译的函数 模板 实例化“void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int(__cdecl *)(Step,Step)>(const _RanIt,const _RanIt,_Pr)”的引用
+          with
+          [
+              _Ty=pointincludevalue,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<pointincludevalue>>>,
+              _Pr=int (__cdecl *)(Step,Step)
+          ]
+d:\vs\vc\tools\msvc\14.16.27023\include\xutility(1108): error C2664: “int (Step,Step)”: 无法将参数 1 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\xutility(1108): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3907): error C2664: “int (Step,Step)”: 无法将参数 2 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3907): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3907): error C2664: “int (Step,Step)”: 无法将参数 1 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3907): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3914): error C2664: “int (Step,Step)”: 无法将参数 2 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3914): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3914): error C2664: “int (Step,Step)”: 无法将参数 1 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3914): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3929): error C2664: “int (Step,Step)”: 无法将参数 2 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3929): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3929): error C2664: “int (Step,Step)”: 无法将参数 1 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3929): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3949): error C2664: “int (Step,Step)”: 无法将参数 2 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3949): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3949): error C2664: “int (Step,Step)”: 无法将参数 1 从“pointincludevalue”转换为“Step”
+  d:\vs\vc\tools\msvc\14.16.27023\include\algorithm(3949): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
